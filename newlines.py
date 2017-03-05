@@ -77,10 +77,10 @@ def _main():
                         help="recursive search", action="store_true")
     parser.add_argument("-v", "-V", "--verbose",
                         help="verbose output, tells you what it's done", action="store_true")
-    parser.add_argument("-p", "-P", "--pattern",
-                        help="regex for file matching (python style)")
     parser.add_argument("-c", "-C", "--confirm",
                         help="confirms changes automatically", action="store_true")
+    parser.add_argument("-p", "-P", "--pattern",
+                        help="regex for file matching (python style)")
     parser.add_argument("path",
                         help="path to file/dir")
     args = parser.parse_args()
