@@ -1,5 +1,5 @@
 # newline
-Python script and module for adding newline to end of files, with recursive search
+Python 2.7 script and module for adding newline to end of files, with recursive search
 
 ## Notes
 `PATTERN` should be regex
